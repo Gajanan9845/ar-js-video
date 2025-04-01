@@ -27,26 +27,26 @@
 
         let currentTab = '';
         webButton.addEventListener('click', function (evt) {
-          text.setAttribute("value", "https://softmind.tech");
+          text.setAttribute("value", "https://playtech.in");
           currentTab = 'web';
         });
         emailButton.addEventListener('click', function (evt) {
-          text.setAttribute("value", "hello@softmind.tech");
+          text.setAttribute("value", "founder@playtech.in");
           currentTab = 'email';
         });
         profileButton.addEventListener('click', function (evt) {
-          text.setAttribute("value", "AR, VR solutions and consultation");
+          text.setAttribute("value", "Born To Change");
           currentTab = 'profile';
         });
         locationButton.addEventListener('click', function (evt) {
           console.log("loc");
-          text.setAttribute("value", "Vancouver, Canada | Hong Kong");
+          text.setAttribute("value", "https://www.google.com/maps/dir//S02,+Second+Floor,+Shiv+Arpan+Residency,+Pipeline+Rd,+Rakshak+Colony,+Shivigiri+Colony,+Vijaynagar,+Belagavi,+Hindalga,+Karnataka+591108/@15.8685599,74.3998489,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bbf67b11720619d:0xef8ca07dacd92757!2m2!1d74.4822507!2d15.8685755?entry=ttu&g_ep=EgoyMDI1MDMyNS4xIKXMDSoASAFQAw%3D%3D");
           currentTab = 'location';
         });
 
         text.addEventListener('click', function (evt) {
           if (currentTab === 'web') {
-            window.location.href="https://softmind.tech";
+            window.location.href="https://playtech.in";
           }
         });
       }
